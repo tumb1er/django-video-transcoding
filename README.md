@@ -5,6 +5,7 @@ Simple video transcoding application for Django Framework
 [![codecov](https://codecov.io/gh/just-work/django-video-transcoding/branch/master/graph/badge.svg)](https://codecov.io/gh/just-work/django-video-transcoding)
 [![Updates](https://pyup.io/repos/github/just-work/django-video-transcoding/shield.svg)](https://pyup.io/repos/github/just-work/django-video-transcoding/)
 [![PyPI version](https://badge.fury.io/py/django-video-transcoding.svg)](http://badge.fury.io/py/django-video-transcoding)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftumb1er%2Fdjango-video-transcoding.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftumb1er%2Fdjango-video-transcoding?ref=badge_shield)
 
 ## Installation
 
@@ -124,3 +125,7 @@ TBD:
 * when using separate celery app, send SIGUSR1 from master to workers to trigger
     soft shutdown handling
     (see `video_transcoding.celery.send_term_to_children`)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftumb1er%2Fdjango-video-transcoding.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftumb1er%2Fdjango-video-transcoding?ref=badge_large)
